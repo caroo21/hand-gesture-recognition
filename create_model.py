@@ -3,7 +3,7 @@ from tensorflow import keras
 from keras import layers
 import numpy as np
 from prepare_data import load_all_data
-
+ 
 IMG_SIZE = 64
 NUM_CLASSES = 4
 CLASSES = ["fist", "hand_open", "peace", "thumbs_up"]
@@ -146,4 +146,4 @@ if __name__=="__main__":
 
     model, history = train_model()
 
-    model.save('hand_gesture_model.h5')
+    model.save('hand_gesture_model.keras')

@@ -2,10 +2,10 @@ import cv2
 import numpy as np 
 import tensorflow as tf 
 import time
-
+ 
 CLASSES = ["fist", "hand_open", "peace", "thumbs_up"]
 IMG_SIZE = 64
-MODEL_PATH = 'hand_gesture_model.h5'
+MODEL_PATH = 'hand_gesture_model.keras'
 
 def preprocess_frame(frame):
     """Bereitet ein Webcam-Frame für das Model vor"""
