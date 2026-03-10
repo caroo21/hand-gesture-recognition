@@ -25,7 +25,3 @@ python live_recognition.py
 - peace
 - flat hand
 - fist
-
-## Results
-- Training accuracy: X%
-- Validation accuracy: X%
